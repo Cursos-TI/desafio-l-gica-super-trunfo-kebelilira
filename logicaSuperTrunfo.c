@@ -7,12 +7,12 @@ int main()
     setlocale(LC_ALL, "");
 
     
-    // Declaração das variáveis para a Carta 1
+    // Declaração das variáveis para a primeira Carta
     char estado[3], codigo[10], cidade[100];
     int populacao, pontosTuristicos;
     float area, pib;
 
-    // Declaração das variáveis para a Carta 2
+    // Declaração das variáveis para a segunda Carta
     char estado2[3], codigo2[10], cidade2[100];
     int populacao2, pontosTuristicos2;
     float area2, pib2;
@@ -26,7 +26,7 @@ int main()
     scanf(" %9s", codigo);
 
     /*Usei uma forma diferente de pegar os dados para que a formatação
-    para que aceite espaços e acentos*/
+    aceite espaços e acentos*/
     printf("- Insira o nome da cidade: ");
     getchar();
     fgets(cidade, 100, stdin);
@@ -53,7 +53,7 @@ int main()
     scanf(" %9s", codigo2);
 
     /*Usei uma forma diferente de pegar os dados para que a formatação
-    para que aceite espaços e acentos*/
+    aceite espaços e acentos*/
     printf("- Insira o nome da cidade: ");
     getchar();
     fgets(cidade2, 100, stdin);
